@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>スクレイピングを学ぶ</title>
+</head>
+<body>
+    <h1>寺中晴紀のスクレイピング講座</h1>
+    <div id= "chap1">
+        <h2>Pythonでデータをダウンロード</h2>
+        <ol>
+            <li>スクレイピングって何</li>
+            <li>Pythonをインストール</li>
+            <li>Requestsでアクセスしてみよう</li>
+        </ol>
+    </div>
+    </div>
+    <div id= "chap2">
+    <h2>HTMLを解析する</h2>
+    <ol>
+        <li>HTMLを解析</li>
+        <li>ニュースの記事を取得</li>
+        <li>画像をダウンロード</li>
+    </ol>
+    </div>
+<p><img src="pc.png" width="50%" height="50%"></p>
+<p><img src="pc2.png" width="50%" height="50%"></p>
+<p><a href="https://creaters-you.com/index2.html">絶対URLでリンクへとぶ</a></p>
+<p><a href="index3.html">相対URLでリンクへとぶ</a></p>
+   
+
+</body>
+</html>
