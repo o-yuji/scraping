@@ -10,5 +10,5 @@ imgdata = requests.get(image_url)
 filename=image_url.split('/')[-1]
 out_path=out_folder.joinpath(filename)
 #画像データをファイルに書き出す
-with open(out_path, mode='wb') as f: #w:書き込み、b:画像ファイルの為、バイバリ形式
+with open(out_path, mode='wb') as f: #w:書き込み、b:画像ファイルの為、バイナリ形式
     f.write(imgdata.content)
