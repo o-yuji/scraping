@@ -17,3 +17,5 @@ driver.find_element(By.CSS_SELECTOR,"body > form > div > textarea").send_keys("t
 [単数・複数]
 driver.find_element(By.NAME,"name").send_keys("xxx")
 driver.find_elements(By.NAME,"name").send_keys("xxx")
+
+
